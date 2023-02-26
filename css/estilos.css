@@ -1,0 +1,86 @@
+/* Style the header */
+header {
+    background-color: rgb(115, 101, 186);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  .curriculum {
+    font-weight:bold;
+    color:rgb(15, 136, 49);
+    }
+
+  #actitud {
+    color: blue;
+  }
+
+ 
+  
+  /*li {
+    color: rgb(5, 52, 29);
+  }*/ 
+  
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Ingreso una foto */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+    text-align: center
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  /* Style the content */
+  article {
+
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #a7cfd8;
+    padding: 10px;
+  }
+
+  
+ 
+  /* Style the footer */
+  footer {
+    background-color: rgb(125, 199, 181);
+    padding: 10px;
+    text-align: left;
+    image:flex; right:0%;
+    /* image-rendering: pixelated;  (no puedo redireccionar la imagen al lado derecho) */
+   
+  }
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+
+  
+  }
+  </style>
+
+/*estos codigos no los toma 
+   
+  
+  
+
+  
